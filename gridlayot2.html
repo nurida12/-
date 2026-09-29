@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid layot 2.0</title>
+</head>
+<body>
+    <style>
+        .grid-container{
+            display:grid;
+         grid-template-areas: 
+           'header header header' 
+           'menu main right'
+        'footer footer footer' ;
+        grid-gap:10px
+        }
+
+
+        .header{
+            grid-area: header;
+        }
+
+        .menu{
+            grid-area: menu;
+        }
+        .main{
+            grid-area: main;
+
+        }
+          
+
+        .right{
+            grid-area: right;
+        }
+
+
+        .footer{
+            grid-area:  footer;
+        }
+
+        .grid-container > div{
+            background-color: green;
+            color:yellow;
+            text-align: center;
+            padding: 20px;
+            font-style: 30px;
+
+            
+        }
+
+
+        @media (max-width:768px){
+            .grid-container{
+                grid-template-areas:
+                'header' 
+                'main'
+                'menu'
+               'right'
+               'footer' ;
+            }
+        }
+            
+        
+    </style>
+    
+    
+    <div class="grid-container">
+       <div class="header">Зверополис</div>
+         <div class="menu">Басты бет
+            Кейіпкерлер (Джуди және Ник)
+            Қала аудандары
+            Қызықты фактілер</div>
+        <div class="main">"Зверополис" — заманауи жануарлар мекендейтін үлкен мегаполис. Фильмнің басты кейіпкері — қоян Джуди Хопс. Ол бала кезден полиция қызметкері болуды армандайды. Джуди қаладағы күрделі істі шешу үшін қу түлкі Ник Уайлдпен бірігуге мәжбүр болады. Бұл мультфильм достық, еңбекқорлық және мақсатқа жету жолындағы кедергілерді жеңу туралы баяндайды.</div>
+    <div class="right">Сүйікті кейіпкерлеріңіздің ойыншықтары! Джуди мен Никтің бейнесіндегі қуыршақтарды 15% жеңілдікпен сатып алыңыз!</div>
+    <div class="footer">© 2026 Зверополис фан-сайты. Мектеп жобасы. Дайындаған:Қ.Нұрида</div>
+    
+        </div>
+</body>
+</html>

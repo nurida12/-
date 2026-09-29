@@ -1,0 +1,117 @@
+/* Жалпы стильдер */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Arial', sans-serif;
+}
+
+body {
+line-height: 1.6;
+color: #333;
+background-color: #f9f9f9;
+}
+
+/* Навигация */
+nav {
+background-color: #2c3e50;
+padding: 1rem;
+position: sticky;
+top: 0;
+z-index: 100;
+}
+
+nav ul {
+display: flex;
+justify-content: space-around;
+list-style: none;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+padding: 0.5rem 1rem;
+transition: all 0.3s ease;
+}
+
+nav a:hover {
+background-color: #34495e;
+border-radius: 5px;
+}
+
+/* Басты бет */
+.hero {
+background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://via.placeholder.com/1920x1080';);
+background-size: cover;
+background-position: center;
+height: 80vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+color: white;
+padding: 0 2rem;
+}
+
+.hero h1 {
+font-size: 3rem;
+margin-bottom: 1rem;
+animation: fadeIn 1.5s ease-in;
+}
+
+.hero p {
+font-size: 1.2rem;
+max-width: 800px;
+animation: fadeIn 2s ease-in;
+}
+
+/* Бөлімдер */
+section {
+padding: 4rem 2rem;
+max-width: 1200px;
+margin: 0 auto;
+}
+
+h2 {
+text-align: center;
+margin-bottom: 2rem;
+font-size: 2.5rem;
+color: #2c3e50;
+}
+
+/* Бағдарламалау тілдері */
+.languages-container {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap: 2rem;
+}
+
+.language-card {
+background: white;
+padding: 1.5rem;
+border-radius: 8px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.language-card:hover {
+transform: translateY(-5px);
+box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.language-card h3 {
+color: #3498db;
+margin-bottom: 1rem;
+}
+
+/* Пайдалы материалдар */
+.resources-container {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 2rem;
+}
+
+.resource-card {
+background: white;
+border-radius:

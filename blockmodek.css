@@ -1,0 +1,19 @@
+.header{
+   background-color: aliceblue; 
+   color: lightcoral;
+  text-align: center;
+ padding:1em
+
+}
+nav{
+    color:aliceblue;
+    background-color: lightcoral;
+    text-align: center ;
+    display: inline;
+}
+img{
+    font-weight: 700px;
+    height: 500px;
+}
+p{ background-color: aliceblue; 
+display:block}

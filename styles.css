@@ -1,0 +1,49 @@
+body{
+    background: palevioletred;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/345/450/533/my-little-pony-the-movie-5k-wallpaper-preview.jpg );
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+  
+    
+
+h1{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color: pink;
+    font-style: italic;
+  
+}
+
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:pink;
+    font-size: 20px;
+   
+}
+p1{
+    color: purple;
+}
+p2{
+    color:orange;
+}
+p3{
+    color: lightblue;
+}
+p4{
+    color: hotpink;
+}
+p5{
+    color:  plum;
+}
+p6{
+    color: lightgoldenrodyellow;
+}
+p7{
+    color: lightgreen;
+}
+
+
+@media screen { (max-width: 600 
+px ;)
+    
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+</head>
+<body>
+    <style>
+     .flower {
+    width: 80px;
+    height: 150px;
+    transform-origin: bottom center;
+    animation: sway 2s ease-in-out infinite;
+}
+
+@keyframes sway {
+    0% {
+        transform: rotate(-5deg);
+    }
+    50% {
+        transform: rotate(5deg);
+    }
+    100% {
+        transform: rotate(-5deg);
+    }
+}   
+    </style>
+
+    <div class="flower">🌸</div>
+</body>
+</html>
