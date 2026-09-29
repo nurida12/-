@@ -1,24 +1,17 @@
-document.addEventListener('DOMContentLoaded', () =>  {
-    const taskForm = document.getElementById('task-form');
-    const taskInput = document.getElementById('task-input');
-    const taskList = document.getElementById('task-list');
+let age = prompt("Жасыңыз нешеде?");
 
-    taskForm.addEventListener('submit', (e) => {
-        e.preventDefault();
-        addTask(taskInput.value);
-        taskInput.value = '';
-    })
+age = Number(age);
 
-    function addTask(task) {
-        const li = document.createElement('li');
-        li.textContent = task;
+alert("5 жылдан кейін сіз " + (age + 5) + " жаста боласыз.");
 
-        const deleteButton = document.createElement('button');
-        deleteButton.textContent = 'Жою';
-        deleteButton.addEventListener('click', () => {
-          taskList.removeChild(li);
-        })
-          li.appendChild(deleteButton);
-          taskList.appendChild(li)
-    }
-})
+console.log("Жасыңыз:", age);
+console.log("5 жылдан кейін:", age + 5);
+
+let a = prompt("Бірінші санды енгіз:");
+let b = prompt("Екінші санды енгіз:");
+
+let result = +a + +b;
+
+alert("Нәтиже: " + result);
+
+console.log(result);
